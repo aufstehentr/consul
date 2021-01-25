@@ -54,7 +54,13 @@
   background: #fff;
 }
 
-#callout {
+#alert {
+  z-index: 150;
+  position: absolute;
+}
+
+
+#notice {
   z-index: 150;
   position: absolute;
 }
