@@ -4,3 +4,56 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 
+/* Dropdown -------------------- */
+
+.main-nav,
+.drop-nav {
+  background: #fff;
+}
+.main-nav {
+  float: left;
+}
+  .main-nav > li {
+    float: left;
+  }
+  .main-nav li:first-child {
+    border-left: none;
+  }
+  .main-nav a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+  }
+.dropdown,
+.flyout {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  z-index: 100;
+}
+
+.drop-nav,
+.flyout-nav {
+  position: absolute;
+  display: none;
+  z-index: 100;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(160, 158, 158, 0.2);
+  width: 220px;
+}
+.dropdown:hover > .drop-nav,
+.flyout:hover > .flyout-nav {
+  display: block;
+}
+.flyout-nav {
+  left: 100%;
+  top: 0;
+}
+.flyout:hover a,
+.flyout-nav {
+  background: #fff;
+}
+
+.callout.notice.notice {
+  z-index: 150;
+}
