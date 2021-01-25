@@ -28,14 +28,12 @@
 .flyout {
   position: relative;
   padding: 0px 10px 0px 10px;
-  z-index: 100;
 }
 
 .drop-nav,
 .flyout-nav {
   position: absolute;
   display: none;
-  z-index: 100;
 }
 .drop-nav li {
   border-bottom: 1px solid rgba(160, 158, 158, 0.2);
